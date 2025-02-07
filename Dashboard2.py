@@ -2,17 +2,13 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 
-# Streamlit app title
 st.title("📈 Simple Stock Price App")
 
-# User input for stock ticker symbol
 tickerSymbol = st.text_input("Enter Stock Ticker (e.g., AAPL, TSLA, GOOGL)", "AAPL").upper()
 
-# User selects date range
 start_date = st.date_input("Start Date", pd.to_datetime("2018-05-31"))
 end_date = st.date_input("End Date", pd.to_datetime("2020-05-31"))
 
-# Fetch data
 try:
     tickerdata = yf.Ticker(tickerSymbol)
     tickerDF = tickerdata.history(start=start_date, end=end_date)
