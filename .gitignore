@@ -1,0 +1,5 @@
+from dotenv import load_dotenv
+import os
+load_dotenv()
+api_key = os.getenv("b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c")
+cmc_url = os.getenv("https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest")
