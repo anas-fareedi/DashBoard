@@ -7,6 +7,8 @@ import yfinance as yf
 import time
 from functools import wraps
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+import os
 
 # Import curl_cffi for bypassing Yahoo Finance TLS fingerprinting
 try:
@@ -51,8 +53,9 @@ def download_link(df, filename="data.csv"):
 
 # Crypto Functions
 
-API_KEY = 'b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c'
-CMC_URL = "https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
+load_dotenv()
+API_KEY = os.getenv("api_key")
+CMC_URL = os.getenv("cmc_url")
 
 headers = {
     'Accepts': 'application/json',
