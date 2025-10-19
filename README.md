@@ -139,6 +139,8 @@ Update the ALPHA_VANTAGE_KEY variable in the code
 
 ## 📊 Screenshots
 
+<img width="1891" height="848" alt="image" src="https://github.com/user-attachments/assets/911b52c7-f6e4-40bc-9a89-39b0edcb4ebe" />
+<img width="1913" height="870" alt="image" src="https://github.com/user-attachments/assets/2fadaae1-8dd8-4b0d-b633-54d8aca57143" />
 
 
 ### 🤝 Contributing
