@@ -182,10 +182,10 @@ yfinance
 
 ### 📧 Contact
 
-Your Name – @yourtwitter
- – your.email@example.com
+Your Name – @AnasFareedi_
+ – work.anasfareedi@gmail.com
 
-Project Link: https://github.com/yourusername/crypto-stock-dashboard
+Project Link: https://github.com/anas-fareedi/DashBoard
 
 ### 🔄 Updates
 
@@ -211,12 +211,7 @@ v1.2.0 – Implemented curl-cffi for Yahoo Finance
 
 ### 📦 Quick Start Commands
 
-Generate requirements.txt:
-```
-pip freeze > requirements.txt
-```
-
-Install dependencies:
+#### Install dependencies:
 ```
 pip install -r requirements.txt
 ```
